@@ -1,0 +1,15 @@
+terraform {
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+      version = "4.38.1"
+    }
+  }
+}
+
+provider "azurerm" {
+
+  features {}
+  # Replace with your actual Azure subscription ID
+  subscription_id = "c69268aa-c88b-494c-aa80-775984104d2a"
+}
